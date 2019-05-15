@@ -1,0 +1,57 @@
+
+.contenedor{
+    display: flex;
+    width:98%;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-style: double;
+    border-color: black;
+    background: paleturquoise;
+}
+#formulario{
+    padding: 2%;
+
+}
+
+#formulario tr td div{
+    margin-left: 100px;
+    margin-top: 20px; 
+    position: relative;
+}
+
+#formulario tr td div label{
+    text-align: center
+}
+#formulario tr td div input{
+    margin-left: 10px; 
+     border: 2px solid green;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+#formulario tr td div select{
+    margin-left: 10px; 
+     border: 2px solid green;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+#formulario tr td div textarea{
+    margin-left: 10px; 
+     border: 2px solid green;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+#formulario tr td div a{
+    margin-left: 10px; 
+     border: 2px solid green;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    background:white;
+    
+}
+
