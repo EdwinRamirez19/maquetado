@@ -4,10 +4,20 @@
 
 
 }
+#mensajeria h1{
+    text-align:left;
+    font-size: 20px;
+    display: flex;
+}
+#mensajeria h1 img{
+    width: 50px;
+    height: 50px;
+}
 
-#mensajeria button{
-    position: fixed;
-    
+#mensajeria p{
+    text-align: justify;
+    width: 800px;
+    height: auto;
 
 }
 .contenedor{
@@ -25,15 +35,23 @@
  #mensajeria .cart_mensajeria{
     margin-top: 10px;
     margin-left: 28px;
-    width: 350%;
-    height: 105%;
-    background: #9c9c9c;
+    width: 930px;
+    height: auto;
+    position: relative;
+    
     
     
 }
+#mensajeria .cart_mensajeria .cuerpo {
+    width: 800px;
+    height: 230px;
+    background: #9c9c9c;
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
 
 
-.cart_mensajeria .seccion_izquierda{
+#mensajeria .cart_mensajeria .cuerpo .seccion_izquierda{
     float: left;
     width: 200px;
     height: 210px;
@@ -46,7 +64,7 @@
 }
 
 
-  .cart_mensajeria .seccion_izquierda .circulo{
+  #mensajeria .cart_mensajeria .cuerpo .seccion_izquierda .circulo{
     margin-top: 5px;
 
     margin-left: 23%;
@@ -57,16 +75,16 @@
     border: 2px solid orange;
 }
 
- .cart_mensajeria .seccion_izquierda h3{
+ #mensajeria .cart_mensajeria .cuerpo .seccion_izquierda h3{
     
     font-size: 12px;
     text-align: center;
 }
 
-  .cart_mensajeria .seccion_derecha{
+  #mensajeria .cart_mensajeria .cuerpo .seccion_derecha{
     margin-left: 210px;
     margin-top: 10px;
-    width: auto;
+    width: 580px;
     height: 210px;
     
     position: absolute;
@@ -75,14 +93,15 @@
     
 
 }
- .cart_mensajeria .seccion_derecha p{
+
+ #mensajeria .cart_mensajeria .cuerpo .seccion_derecha p{
     text-align: justify;
     width: 600px;
     height: auto;
     font-size: 12px;
     margin-left: 10px;
 }
- .cart_mensajeria .seccion_derecha h3{
+ #mensajeria .cart_mensajeria .cuerpo .seccion_derecha h3{
     margin-left: 10px;
     color: #9c9c9c ;
     font-family: cursive;
@@ -99,10 +118,33 @@ padding-left:20px;
 
 
 }
+
  .seccion_izquierda h5{
     font-size: 12px;
     margin-left: 3px;
     margin-top: -1px;
     color: #9c9c9c;
     margin-bottom: 10px;
+}
+
+  .contenedor #mensajeria .fijado{
+   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    
+    z-index: 9999;
+
+
+}
+
+.contenedor #mensajeria .fijado button{
+      
+        margin-bottom: 120px;
+        margin-left: 100px;
+        background: rgb(92, 8, 202);
+        color: white;
+        width: 100px;
+        height: 40px;;
 }
