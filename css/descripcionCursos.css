@@ -31,20 +31,21 @@
     float: right;
  
 }
-.cart_publicidad #parrafo{
+#descripcion_cursos .header .cart_publicidad #parrafo{
+    color:  black;
+    margin-left: 5px;
+    font-size: 12px;
+}
+#descripcion_cursos .header .cart_publicidad h3{
     color:  black;
     margin-left: 5px;
 }
-.cart_publicidad h3{
-    color:  black;
-    margin-left: 5px;
-}
-.cart_publicidad small{
+#descripcion_cursos .header .cart_publicidad small{
     color:  peru;
     margin-left: 5px;
     font-size: 12px;
 }
-.cart_publicidad #agregar{
+#descripcion_cursos .header .cart_publicidad #agregar{
     width: 210px;
     height: 50px;
     margin-left: 40px;
@@ -53,7 +54,7 @@
     color: azure;
     font-size: 16px;
 }
-.cart_publicidad #comprar{
+#descripcion_cursos .header .cart_publicidad #comprar{
     width: 210px;
     height: 50px;
     margin-left: 40px;
@@ -64,9 +65,46 @@
     font-size: 16px;
     margin-top: 20px;
 }
-.cart_publicidad h5{
+#descripcion_cursos .header.cart_publicidad h5{
     text-align: center;
     font-size: 12px;
+}
+#descripcion_cursos .header .cart_publicidad input{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    border: 1px solid blue;
+   -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    color: #F54B4B;
+}
+#descripcion_cursos .header .cart_publicidad #enviar{
+    margin-left: 45%;
+    width: 100px;
+    height: 30px;
+    background: #032F44;
+    color: white;
+    margin-top: 10px;
+}
+#descripcion_cursos .header .cart_publicidad label{
+    margin-left: 40px;
+    color: #032F44;
+}
+#descripcion_cursos .header .cart_publicidad a{
+    display: flex;
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 45%;
+
+}
+#descripcion_cursos .header .cart_publicidad a img{
+    width: 25px;
+    height: 25px;
+ 
+    
 }
 .cart_publicidad h2{
     text-align: justify;
@@ -145,19 +183,60 @@
 #descripcion_cursos .tematica h1{
     text-align: justify;
     margin-left: 20px;
+    margin-top: 100px;
 
 }
 #descripcion_cursos .tematica p{
     text-align: justify;
     margin-left: 20px;
+    
 
 }
 #descripcion_cursos .tematica ul  li{
 
     text-align: justify;
 }
+#descripcion_cursos .ofertas{
+    
+    position: relative;
+    width: 600px;
+    height: auto;
+    
+}
+#descripcion_cursos .ofertas  h1{
+    text-align: justify;
+    margin-left: 20px;
+}
+#descripcion_cursos .ofertas div{
 
+    
+    margin-left: 20px;
+    width: 600px;
+    height: 150px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    
+    
+    
+}
+#descripcion_cursos .ofertas div img{
 
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    
+    
+}
+#descripcion_cursos .ofertas div p{ 
 
-
+    width: 400px;
+    height: auto;
+    margin-right: 80px;
+    
+    float: right;
+    
+    
+}
 
