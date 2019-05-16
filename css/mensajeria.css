@@ -22,7 +22,7 @@
     position: relative;
 }
 
- .cart_mensajeria{
+ #mensajeria .cart_mensajeria{
     margin-top: 10px;
     margin-left: 28px;
     width: 350%;
@@ -46,7 +46,7 @@
 }
 
 
-.cart_mensajeria .seccion_izquierda .circulo{
+  .cart_mensajeria .seccion_izquierda .circulo{
     margin-top: 5px;
 
     margin-left: 23%;
@@ -57,13 +57,13 @@
     border: 2px solid orange;
 }
 
-.cart_mensajeria .seccion_izquierda h3{
+ .cart_mensajeria .seccion_izquierda h3{
     
     font-size: 12px;
     text-align: center;
 }
 
-.cart_mensajeria .seccion_derecha{
+  .cart_mensajeria .seccion_derecha{
     margin-left: 210px;
     margin-top: 10px;
     width: auto;
@@ -75,14 +75,14 @@
     
 
 }
-.cart_mensajeria .seccion_derecha p{
+ .cart_mensajeria .seccion_derecha p{
     text-align: justify;
     width: 600px;
     height: auto;
     font-size: 12px;
     margin-left: 10px;
 }
-.cart_mensajeria .seccion_derecha h3{
+ .cart_mensajeria .seccion_derecha h3{
     margin-left: 10px;
     color: #9c9c9c ;
     font-family: cursive;
@@ -99,7 +99,7 @@ padding-left:20px;
 
 
 }
-.seccion_izquierda h5{
+ .seccion_izquierda h5{
     font-size: 12px;
     margin-left: 3px;
     margin-top: -1px;

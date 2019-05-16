@@ -1,0 +1,81 @@
+#cursos{
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2%;
+    padding-bottom: 3px;
+    
+}
+.container{
+    display: flex;
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-color: black;
+    position: relative;
+}
+
+#cursos .table{
+    padding-top: 2%;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+    background: #F1ECEB;
+
+}
+.table div{
+    
+    display: inline-block;
+    margin-left: 10px;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    background: white;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    
+
+}
+
+.table div img{
+    width: 250px;
+    height: 170px;
+    
+}
+
+.table div h3{
+    margin-left: 10px;
+    color: slategrey;
+    font-size: 13px;
+    
+}
+.table div h4{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.table div p{
+
+    color: black;
+    font-size: 12px;
+    
+
+}
+.table div h5{
+    margin-left: 10px;
+}
+
+
+/*Descripcion de cursos*/
+
+#descripcion_cursos header{
+
+    width: 
+}
