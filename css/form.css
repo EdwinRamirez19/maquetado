@@ -13,23 +13,26 @@
 }
 #formulario{
     padding: 2%;
+    table-layout: auto;
 
 }
 
 #formulario tr td div{
-    margin-left: 230px;
+    margin-left: px;
     margin-top: 20px; 
     position: relative;
 }
 
 #formulario tr td div label{
-    text-align: center
+    text-align: justify
 }
 #formulario tr td div input{
     margin-left: 10px; 
      border: 2px solid green;
     -moz-border-radius: 5px;
     -webkit-border-radius:5px;
+    width: 150px;
+    
 }
 
 #formulario tr td div select{
@@ -37,6 +40,7 @@
      border: 2px solid green;
     -moz-border-radius: 5px;
     -webkit-border-radius:5px;
+    display: flex;
 }
 #formulario tr td div textarea{
     margin-left: 10px; 
