@@ -85,6 +85,7 @@ footer {
     margin-bottom: 5px;
     border-style: double;
     border-color: black;
+    position: relative;
 }
 
 #estrenos img {

@@ -1,0 +1,108 @@
+#mensajeria{
+    padding: 5%;
+    
+
+
+}
+
+#mensajeria button{
+    position: fixed;
+    
+
+}
+.contenedor{
+    display: flex;
+    width: 950px;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-color: black;
+    position: relative;
+}
+
+ .cart_mensajeria{
+    margin-top: 10px;
+    margin-left: 28px;
+    width: 350%;
+    height: 105%;
+    background: #9c9c9c;
+    
+    
+}
+
+
+.cart_mensajeria .seccion_izquierda{
+    float: left;
+    width: 200px;
+    height: 210px;
+    margin-top: 10px;
+    
+    margin-left: 10px;
+    margin-bottom: -10px;
+    background: whitesmoke;
+    
+}
+
+
+.cart_mensajeria .seccion_izquierda .circulo{
+    margin-top: 5px;
+
+    margin-left: 23%;
+    background:blue;
+    width: 100px;
+    height: 100px; 
+    border-radius: 50px;
+    border: 2px solid orange;
+}
+
+.cart_mensajeria .seccion_izquierda h3{
+    
+    font-size: 12px;
+    text-align: center;
+}
+
+.cart_mensajeria .seccion_derecha{
+    margin-left: 210px;
+    margin-top: 10px;
+    width: auto;
+    height: 210px;
+    
+    position: absolute;
+    background: white;
+    margin-right: 10px;
+    
+
+}
+.cart_mensajeria .seccion_derecha p{
+    text-align: justify;
+    width: 600px;
+    height: auto;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.cart_mensajeria .seccion_derecha h3{
+    margin-left: 10px;
+    color: #9c9c9c ;
+    font-family: cursive;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ #icono{
+width: 15px;
+height: 15px;
+background-repeat:no-repeat;
+padding-left:20px;
+
+
+}
+.seccion_izquierda h5{
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: -1px;
+    color: #9c9c9c;
+    margin-bottom: 10px;
+}
